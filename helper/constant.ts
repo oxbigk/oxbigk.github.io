@@ -107,7 +107,6 @@ const DATA: PortfolioData = {
       // image:
       //   "https://placehold.co/1600x1000/111/FFF?text=Zoropay&font=playfair",
     },
-
     {
       id: "edumate",
       title: "Edumate",
