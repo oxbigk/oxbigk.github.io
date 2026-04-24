@@ -76,9 +76,10 @@ const DATA: PortfolioData = {
         "Virtual wallet platform supporting multi-currency payments. Built for high-volume transactions with React Native.",
       tech: ["React Native", "Next.js", "Zustand", "React Query", "Axios"],
       icon: Smartphone,
-      image:
-        "https://placehold.co/1600x1000/111/FFF?text=Kite+App&font=playfair",
+      // image:
+      //   "https://placehold.co/1600x1000/111/FFF?text=Kite+App&font=playfair",
       link: "https://www.kitefinance.io/",
+      image: `https://raw.githubusercontent.com/oxbigk/images/refs/heads/main/Screenshot%202026-01-06%20at%202.51.07%20PM.png`,
     },
     {
       id: "foliohq",
@@ -88,8 +89,10 @@ const DATA: PortfolioData = {
         "Buy, sell, and securely store Crypto securely with Folio. Pay utility bills, recharge airtime, and purchase data with crypto.",
       tech: ["Next.js", "TypeScript", "GraphQL"],
       icon: BarChart3,
+      // image:
+      //   "https://placehold.co/1600x1000/111/FFF?text=Folio+HQ&font=playfair",
       image:
-        "https://placehold.co/1600x1000/111/FFF?text=Folio+HQ&font=playfair",
+        "https://raw.githubusercontent.com/oxbigk/images/refs/heads/main/Screenshot%202024-07-03%20at%203.22.28%20PM.png",
       link: "https://www.foliohq.io/",
     },
     {
@@ -100,8 +103,9 @@ const DATA: PortfolioData = {
         "A platform that provide loans and saving opportunities for parents with a steady income to pay their children's school fees.",
       tech: ["React", "Styled component", "Redux", "Axios"],
       icon: CreditCard,
-      image:
-        "https://placehold.co/1600x1000/111/FFF?text=Zoropay&font=playfair",
+      image: `https://raw.githubusercontent.com/oxbigk/images/refs/heads/main/h800-1447811viQQ8kAM.jpg`,
+      // image:
+      //   "https://placehold.co/1600x1000/111/FFF?text=Zoropay&font=playfair",
     },
     {
       id: "gotodo",
@@ -123,7 +127,7 @@ const DATA: PortfolioData = {
       tech: ["Next.js", "Solidity", "Wagmi", "Tailwind"],
       icon: Scroll,
       image:
-        "https://placehold.co/1600x1000/111/FFF?text=Edumate&font=playfair",
+        "https://raw.githubusercontent.com/oxbigk/images/refs/heads/main/Screenshot%202025-01-15%20at%204.50.56%20PM.png",
       link: "https://edumate-six.vercel.app/",
     },
     {
