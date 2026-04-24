@@ -87,7 +87,7 @@ const DATA: PortfolioData = {
       category: "Fintech",
       description:
         "Buy, sell, and securely store Crypto securely with Folio. Pay utility bills, recharge airtime, and purchase data with crypto.",
-      tech: ["Next.js", "TypeScript", "GraphQL"],
+      tech: ["Next.js", "TypeScript", "REST APIs", "Tailwind"],
       icon: BarChart3,
       // image:
       //   "https://placehold.co/1600x1000/111/FFF?text=Folio+HQ&font=playfair",
@@ -107,18 +107,7 @@ const DATA: PortfolioData = {
       // image:
       //   "https://placehold.co/1600x1000/111/FFF?text=Zoropay&font=playfair",
     },
-    {
-      id: "gotodo",
-      title: "Go-Todo",
-      category: "Backend Development",
-      description:
-        "A simple todo manager application built with Golang and PostgreSQL.",
-      tech: ["Golang", "PostgreSQL", "Chi"],
-      icon: List,
-      image:
-        "https://placehold.co/1600x1000/111/FFF?text=Go-Todo&font=playfair",
-      link: "https://github.com/kcmikee/taskmanager-api",
-    },
+
     {
       id: "edumate",
       title: "Edumate",
@@ -139,8 +128,20 @@ const DATA: PortfolioData = {
       tech: ["React", "Tailwind"],
       icon: ShieldCheck,
       image:
-        "https://placehold.co/1600x1000/111/FFF?text=Laju+Iren+Films&font=playfair",
+        "https://raw.githubusercontent.com/oxbigk/images/refs/heads/main/Screenshot%202025-10-07%20at%203.10.16%20PM.png",
       link: "https://www.lajuirenfilms.com/",
+    },
+    {
+      id: "gotodo",
+      title: "Go-Todo",
+      category: "Backend Development",
+      description:
+        "A simple todo manager application built with Golang and PostgreSQL.",
+      tech: ["Golang", "PostgreSQL", "Chi"],
+      icon: List,
+      image:
+        "https://placehold.co/1600x1000/111/FFF?text=Go-Todo&font=playfair",
+      link: "https://github.com/kcmikee/taskmanager-api",
     },
   ],
 };
