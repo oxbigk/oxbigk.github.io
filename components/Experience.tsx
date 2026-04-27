@@ -33,7 +33,7 @@ const ExperienceSection: React.FC = () => (
             </div>
             <div className="mt-8 md:mt-4 p-5 md:p-6 bg-[#F5F5F5] rounded-lg border border-black/5">
               <h4 className="font-mono text-[10px] md:text-xs uppercase tracking-widest text-[#EB3A14] mb-3">
-                Education
+                Certification
               </h4>
               <p className="font-semibold text-sm md:text-base">
                 Blockchain development
