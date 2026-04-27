@@ -24,7 +24,7 @@ const ProjectCard: React.FC<{ project: Project; index: number }> = ({
       <img
         src={project.image}
         alt={project.title}
-        className="w-full h-full object-cover grayscale group-hover:grayscale-0 origin-center transition-transform duration-500 group-hover:scale-105"
+        className="w-full h-full object-cover md:grayscale group-hover:grayscale-0 origin-center transition-transform duration-500 group-hover:scale-105"
       />
     </div>
     <div

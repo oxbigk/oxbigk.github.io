@@ -35,7 +35,7 @@ const Terminalinterface: React.FC = () => {
       lCmd.includes("skill")
     ) {
       resp =
-        "Core: React, Next.js, React Native, NestJS, PostgreSQL. Specialized in Web3 (Solidity) and Golang.";
+        "Core: React.js, React Native, Next.js, Golang and TypeScript. Other: Node.js, NestJS, PostgreSQL, Solidity.";
     } else if (
       lCmd.includes("experience") ||
       lCmd.includes("work") ||
@@ -45,13 +45,41 @@ const Terminalinterface: React.FC = () => {
         "Currently Mobile and Frontend Lead at Kite Finance. Previously Zoropay (EdTech) and Zedna technology (Fintech)."; //Folio HQ (Fintech),
     } else if (lCmd.includes("contact")) {
       resp = `Contact: ${DATA.email} | Location: ${DATA.location}`;
+    } else if (lCmd.includes("about")) {
+      resp = `I'm Michael Esenwa, a Software Engineer based in Lagos, Nigeria. I specialize in building high-performance web and mobile applications, with a focus on fintech and Web3 technologies. With experience across multiple industries, I bring a versatile skill set and a passion for delivering impactful solutions.`;
+    } else if (lCmd.includes("help")) {
+      resp = `Try asking about my "skills", "experience", or "contact info". You can also ask more specific questions like "What frontend frameworks do you use?" or "Where are you located?"`;
+    } else if (lCmd.includes("project") || lCmd.includes("portfolio")) {
+      resp = `You can view my projects on my GitHub: ${DATA.github}`;
+    } else if (lCmd.includes("availability") || lCmd.includes("hire")) {
+      resp = `I'm currently open to new opportunities. Feel free to reach out via email: ${DATA.email} or LinkedIn: ${DATA.linkedin} to discuss potential collaborations or roles.`;
+    } else if (lCmd.includes("education") || lCmd.includes("school")) {
+      resp = `I hold a Bachelor's degree in Computer Science from the University of Lagos.`;
+    } else if (lCmd.includes("hobbies") || lCmd.includes("interests")) {
+      resp = `In my free time, I enjoy exploring new technologies, contributing to open source projects, and watching sci-fi movies.`;
+    } else if (lCmd.includes("challenge") || lCmd.includes("problem")) {
+      resp = `One of the biggest challenges I faced was during my time at Zoropay, where we had to rapidly scale our frontend to support a surge in users. I led the effort to optimize our React application, implementing code-splitting and performance enhancements that reduced load times by 40%.`;
+    } else if (lCmd.includes("goal") || lCmd.includes("aspiration")) {
+      resp = `My goal is to continue growing as a software engineer, taking on more complex projects and eventually transitioning into a leadership role where I can mentor others and drive impactful technology initiatives.`;
+    } else if (lCmd.includes("fun") || lCmd.includes("random")) {
+      resp = `Here's a fun fact: The first computer bug was an actual moth found in a Harvard Mark II computer in 1947!`;
+    } else if (lCmd.includes("joke")) {
+      resp = `Why do programmers prefer dark mode? Because light attracts bugs!`;
+    } else {
+      resp = `I'm not sure how to respond to that. Try asking about my "skills", "experience", or "contact info".`;
     }
 
     setHistory((prev) => [...prev, { type: "bot", content: resp }]);
     setIsProcessing(false);
   };
 
-  const quickPrompts = ['"Core skills?"', '"Experience?"', '"Contact info?"'];
+  const quickPrompts = [
+    '"Core skills?"',
+    '"Experience?"',
+    '"Contact info?"',
+    '"Tell me about you"',
+    '"Are you available for hire?"',
+  ];
 
   return (
     <div className="w-full flex flex-col items-center gap-6 md:gap-8">

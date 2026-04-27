@@ -5,12 +5,13 @@ import {
   Scroll,
   ShieldCheck,
   Smartphone,
+  LayoutDashboard,
 } from "lucide-react";
 import { PortfolioData } from "./type";
 
 const DATA: PortfolioData = {
   name: "Michael Esenwa",
-  role: "Fullstack Engineer",
+  role: "Software Engineer",
   location: "Lagos, Nigeria",
   email: "michael.esenwa@yahoo.com",
   github: "https://github.com/kcmikee",
@@ -27,7 +28,7 @@ const DATA: PortfolioData = {
     "NestJS",
     "PostgreSQL",
     "Solidity",
-    "GraphQL",
+    // "GraphQL",
   ],
   experience: [
     {
@@ -35,8 +36,9 @@ const DATA: PortfolioData = {
       company: "Kite App",
       period: "Jan 2025 — Present",
       points: [
-        "Integrated APIs for virtual USD/EUR/NGN wallets supporting 10k+ weekly transactions.",
-        "Migrated the platform to a new KYC provider, raising verification success rates by 40%.",
+        "Developed & maintained a fintech application using React native and Typescript",
+        `Integrated REST APIs for handling virtual accounts, identity verification and other sensitive endpoint, ensuring real time transaction processing and functionality.`,
+        `Implemented state management using Zustand and React Query, optimizing performance and ensuring a seamless user experience across the app.`,
       ],
     },
     // {
@@ -53,8 +55,8 @@ const DATA: PortfolioData = {
       company: "Zoropay",
       period: "Aug 2021 — Dec 2024",
       points: [
-        "Built a self service loan repayment portal that reduced customer support requests by 50%.",
-        "Developed dashboards used by 20+ partner institutions to track user activity in real time.",
+        `Led frontend development of a consumer facing web portal and the Internal admin system, supporting end users across multiple institutions (React.Js, Javascript).`,
+        "Built the primary frontend systems for the Micro-finance banks and educational institutions, enabling loan management, payments, enrolment, and reporting workflows.",
       ],
     },
     {
@@ -62,8 +64,9 @@ const DATA: PortfolioData = {
       company: "Zedna Technology",
       period: "Nov 2019 — Aug 2021",
       points: [
-        "Built reusable React Native UI components and managed a consistent design system.",
-        "Partnered with product and design teams to deliver smooth user experiences.",
+        "Assisted in the designing of new company mobile application using React Native.",
+        "Implemented state management logic using Redux and Context API, ensuring efficient data flow and a responsive user interface.",
+        "Collaborated with backend developers to integrate RESTful APIs, enabling seamless data exchange and real-time updates within the mobile application.",
       ],
     },
   ],
@@ -96,6 +99,28 @@ const DATA: PortfolioData = {
       link: "https://www.foliohq.io/",
     },
     {
+      id: "engagecopilot",
+      title: "Engage Copilot",
+      category: "SaaS Dashboard",
+      description:
+        "Multi-tenant merchant dashboard for managing inventory, tracking orders, and monitoring transactions in real-time. Optimized for mobile-first with a 2s load time.",
+      tech: ["Next.js", "TypeScript", "Redux", "Tailwind"],
+      icon: LayoutDashboard,
+      image:
+        "https://res.cloudinary.com/dqm97vrty/image/upload/v1777250596/Screenshot_2026-04-27_at_10.03.20_PM_aluge9.png",
+    },
+    {
+      id: "hireright",
+      title: "Hire Right",
+      category: "Fullstack / AI Tool",
+      description:
+        "Bias detection platform that analyses job descriptions for gender, age, disability, and linguistic bias — giving recruiters real-time scores and AI rewrite suggestions.",
+      tech: ["NestJS", "Next.js", "TypeScript", "PostgreSQL"],
+      icon: ShieldCheck,
+      image:
+        "https://placehold.co/1600x1000/111/FFF?text=Hire+Right&font=playfair",
+    },
+    {
       id: "zoropay",
       title: "Zoropay",
       category: "EdTech Platform",
@@ -124,7 +149,7 @@ const DATA: PortfolioData = {
       category: "Movies",
       description:
         "An independent film making company that specializes in telling inspiring stories, creatively and professionally.",
-      tech: ["React", "Tailwind"],
+      tech: ["React", "Tailwind", "Framer Motion"],
       icon: ShieldCheck,
       image:
         "https://raw.githubusercontent.com/oxbigk/images/refs/heads/main/Screenshot%202025-10-07%20at%203.10.16%20PM.png",
@@ -135,7 +160,7 @@ const DATA: PortfolioData = {
       title: "Go-Todo",
       category: "Backend Development",
       description:
-        "A simple todo manager application built with Golang and PostgreSQL.",
+        "A simple todo manager application built with Golang and PostgreSQL. Designed for high performance and scalability, it provides a RESTful API for managing tasks efficiently.",
       tech: ["Golang", "PostgreSQL", "Chi"],
       icon: List,
       image:
