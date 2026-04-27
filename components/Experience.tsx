@@ -62,7 +62,7 @@ const ExperienceSection: React.FC = () => (
             transition={{ delay: i * 0.1 }}
             className="relative group"
           >
-            <div className="absolute -left-[1.95rem] md:-left-13 top-1.5 md:top-2 w-2.5 h-2.5 md:w-3 md:h-3 bg-white border-2 border-gray-300 rounded-full z-10 group-hover:border-[#EB3A14] group-hover:bg-[#EB3A14] transition-colors"></div>
+            <div className="absolute -left-[1.95rem] md:-left-[3.39rem] top-1.5 md:top-2 w-2.5 h-2.5 md:w-3 md:h-3 bg-white border-2 border-gray-300 rounded-full z-10 group-hover:border-[#EB3A14] group-hover:bg-[#EB3A14] transition-colors" />
             <h3 className="text-xl md:text-2xl font-semibold tracking-tight">
               {job.role}
             </h3>
